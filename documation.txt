@@ -1,0 +1,24 @@
+Step 1 : Extract ZIP to your root
+Step 2 : Setup database details to .env.
+Step 3 : run "php artisan migrate:fresh --seed"
+Step 3 : once you completed it, you can jump on login/register page.
+default login details
+ admin@email.com
+ secret
+ user@email.com
+ secret
+CREATE USER 'airtime'@'localhost' IDENTIFIED BY 'r6$bjeqF^{-V%_K';
+GRANT ALL PRIVILEGES ON * . * TO 'airtime'@'localhost';
+-----------
+Libraries docs
+https://laravelcollective.com/docs/6.0/html
+https://spatie.be/docs/laravel-permission/v3/introduction
+https://spatie.be/docs/laravel-activitylog/v3/introduction
+https://unisharp.github.io/laravel-filemanager/
+https://github.com/anlutro/laravel-settings
+https://github.com/laracasts/flash
+
+
+
+CREATE USER 'dada'@'%' IDENTIFIED WITH mysql_native_password BY 'PasswordHardSana@2021';
+GRANT ALL ON example_database.* TO 'dada'@'%';
